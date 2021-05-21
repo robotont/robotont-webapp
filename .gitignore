@@ -1,0 +1,43 @@
+.DS_Store
+node_modules
+/dist
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+frontend/package-lock.json
+
+ttyd/CATKIN_IGNORE
+ttyd/CMakeCache.txt
+ttyd/CMakeFiles/
+ttyd/CTestConfiguration.ini
+ttyd/CTestCustom.cmake
+ttyd/CTestTestfile.cmake
+ttyd/Makefile
+ttyd/atomic_configure/
+ttyd/catkin/
+ttyd/catkin_generated/
+ttyd/cmake_install.cmake
+ttyd/devel/
+ttyd/gtest/
+ttyd/install_manifest.txt
+
+backend/dist/*
+
